@@ -18,7 +18,7 @@ end
 append_file 'Gemfile', <<-GEMFILE
 
 # Refinery CMS
-gem 'refinerycms', '~> #{VERSION_BAND}'
+gem 'refinerycms', github: 'refinery/refinerycms', branch: '3-0-stable'
 
 # Optionally, specify additional Refinery CMS Extensions here:
 gem 'refinerycms-acts-as-indexed', ['~> 3.0', '>= 3.0.0']
